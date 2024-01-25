@@ -1,27 +1,32 @@
-/*---------- Google Fonts ----------*/
+/* ---------- Google Font ---------- */
 @font-face {
     font-family: "Playpen Sans";
     src: url("../font/playpen/PlaypenSans-Regular.ttf") format('truetype');
 
 }
 
-/*---------- Reset CSS ----------*/
+/* ---------- Reset css ---------- */
 * {
     margin: 0;
     padding: 0;
 
 }
 
-/*--------- Main CSS ----------*/
+/* ---------- Apply hole site ---------- */
 body {
     font-family: "Playpen Sans";
     background-color: #4a2b13;
     color:#ffa849;
 
 }
+
+/* ---------- Divide page ---------- */
 #center-page {
     display:block;
+
 }
+
+/* ---------- Picture side ---------- */
 .left-column {
     float: left;
     width:50%;
@@ -32,22 +37,13 @@ body {
     background-position: center center;
     
 }
-.right-column {
-    float: right;
-    width:50%;
-    overflow: auto;
-    background-color: #4a2b13;
-}
 
-.content {
-    padding-top: 15px;
-    padding-left: 55px;
-}
-
+/* ---------- Social network ---------- */
 .social {
     padding-top: 55px;
     
 }
+
 .social li {
     font-size: 55px;
     list-style: none;
@@ -55,41 +51,70 @@ body {
     padding: 15px;
     
 }
+
 .social a {
     color: #68848b;
+
 }
+
 .social a:hover {
     color: #ffa849;
+
+}
+
+/* ---------- Content side ---------- */
+.right-column {
+    float: right;
+    width:50%;
+    overflow: auto;
+    background-color: #4a2b13;
+
+}
+
+.content {
+    padding-top: 15px;
+    padding-left: 55px;
+
 }
 
 .section {
     padding-top: 35px;
+
 }
+
 .section p{
     padding: 5px;
     width: 50%;
+
 }
 
 .img {
     font-size: 35px;
     color:#68848b;
+
 }
 
 .name {
     color:#68848b;
     padding-left: 15px;
     font-size: 25px;
+
 }
+
 .view a {
     text-decoration: none;
     color:#68848b;
     font-size: 18px;
+
 }
+
 .list li {
     list-style: none;
     padding-left: 9px;
     padding-top: 5px;
 }
+
+/* ---------- Media queries ---------- */
 @media only screen and (max-width: 800px) {
     #center-page {
         display:grid;
