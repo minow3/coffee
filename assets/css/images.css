@@ -3,7 +3,7 @@
     width:50%;
     height:100%;
     position:fixed;
-    background-image: url("assets/images/beens.jpg");
+    background-image: url("../images/beens.jpg");
     background-size: cover;
     background-position: center center;
     
@@ -15,7 +15,7 @@
         float:initial;
         position: initial;
         height: 400px;
-        background-image: linear-gradient(180deg,transparent 80%,#4a2b13), url("assets/images/beens.jpg");
+        background-image: linear-gradient(180deg,transparent 80%,#4a2b13), url("../images/beens.jpg");
     }
 
 }
