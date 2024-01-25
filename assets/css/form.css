@@ -1,0 +1,75 @@
+/* ---------- Target text field ---------- */
+input[type="text"],
+textarea {
+  background-color: #68848b;
+  border: 1px solid #68848b;
+  color: #ffa849;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+/* ---------- Target email field ---------- */
+input[type="email"] {
+  background-color: #68848b;
+  border: 1px solid #68848b;
+  width: 100%; 
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+/* ---------- Target submit button ---------- */
+input[type="submit"] {
+  background-color: #68848b;
+  color: #ffa849;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+
+/* ---------- Hover effect ---------- */
+input[type="submit"]:hover {
+  background-color: #ffa849;
+  color: #68848b;
+
+}
+
+/* ---------- Target full form ---------- */
+.container-form {
+  padding: 15px;
+  width: 80%;
+
+}
+
+/* ---------- Target label of field ---------- */
+.container-form label {
+  font-size: 20px;
+
+}
+
+/* ---------- Target placeholders in input fields ---------- */
+.container-form input::placeholder {
+    font-size: 18px;
+    color: #ffa849;
+
+}
+
+/* ---------- Target placeholders in textarea fields ---------- */
+.container-form textarea::placeholder {
+    font-size: 18px;
+    color: #ffa849;
+
+}
