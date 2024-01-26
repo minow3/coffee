@@ -28,6 +28,22 @@ input[type="email"] {
 
 }
 
+/* ---------- Target date time field ---------- */
+input[type="datetime-local"] {
+    background-color: #68848b;
+    border: 1px solid #68848b;
+    color:#ffa849;
+    font-size: 16px;
+    width: 100%; 
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  
+  }
+
 /* ---------- Target submit button ---------- */
 input[type="submit"] {
   background-color: #68848b;
