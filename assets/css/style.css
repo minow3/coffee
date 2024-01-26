@@ -130,8 +130,8 @@ body {
         width: initial;
         float:initial;
         position: initial;
-        height: 300px;
-        background-image: linear-gradient(180deg,transparent 80%,#4a2b13), url("../images/early_rise_caffee.svg");
+        height: 400px;
+        background-image: linear-gradient(180deg,transparent 80%,#A0725A), url("../images/early_rise_caffee.svg");
     }
     .right-column {
         width: initial;
