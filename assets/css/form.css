@@ -66,7 +66,7 @@ input[type="submit"]:hover {
 /* ---------- Target full form ---------- */
 .container-form {
   padding: 15px;
-  width: 80%;
+  max-width: 300px;
 
 }
 
