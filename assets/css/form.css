@@ -2,64 +2,91 @@
 input[type="text"],
 textarea {
   background-color: #68848b;
-  border: 1px solid #68848b;
+  border: 2px solid #5B3D23;
   color: #ffa849;
   width: 100%;
   padding: 12px;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: "Playpen Sans";
 
 }
 
 /* ---------- Target email field ---------- */
 input[type="email"] {
   background-color: #68848b;
-  border: 1px solid #68848b;
+  border: 2px solid #5B3D23;
   width: 100%; 
   padding: 12px;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: "Playpen Sans";
 
 }
+
+/* ---------- Target check field ---------- */
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color:#ffa849;
+  background-color: #5B3D23;
+
+}
+
+#news {
+  font-size: 25px;
+  background-color: #68848b;
+  border: 2px solid #5B3D23;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
 
 /* ---------- Target date time field ---------- */
 input[type="datetime-local"] {
     background-color: #68848b;
-    border: 1px solid #68848b;
-    color:#000000;
+    border: 2px solid #5B3D23;
+    color:#ffa849;
     font-size: 16px;
     width: 100%; 
     padding: 12px;
-    border-radius: 4px;
+    border-radius: 10px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-family: "Playpen Sans";
   
   }
 
 /* ---------- Target submit button ---------- */
 input[type="submit"] {
-  background-color: #68848b;
-  color: #ffa849;
+  background-color: #ffa849;
+  border: 2px solid #5B3D23;
+  color: #5B3D23;
   padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 18px;
+  font-weight: 600;
+  font-family: "Playpen Sans";
 
 }
 
 /* ---------- Hover effect ---------- */
 input[type="submit"]:hover {
-  background-color: #ffa849;
+  background-color: #fff;
   color: #68848b;
+  font-weight: 600;
+  border: 2px solid #5B3D23;
 
 }
 
@@ -73,6 +100,7 @@ input[type="submit"]:hover {
 /* ---------- Target label of field ---------- */
 .container-form label {
   font-size: 20px;
+  color: #ffa849;
 
 }
 
