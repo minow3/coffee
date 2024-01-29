@@ -16,8 +16,9 @@
 body {
     font-family: "Playpen Sans";
     background-color: #A0725A;
-    color:#ffa849;
+    color:#FCF7F1;
     font-weight: 600;
+    font-size: 18px;
 
 }
 
@@ -94,6 +95,10 @@ body {
     color:#5B3D23;
 
 }
+h1 {
+    color:#5B3D23;
+    padding-left: 15px;
+}
 
 .name {
     color:#5B3D23;
@@ -128,7 +133,7 @@ body {
 #linebreak {
     border: none;
     height: 2px;
-    background-color: #5B3D23;
+    background-color: #FCF7F1;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 93%;
@@ -137,7 +142,8 @@ body {
 .timelist {
     list-style: none;
     padding: 20px;
-    color: #ffa849;
+    color: #FCF7F1;
+    font-size: 18px;
 }
 /* ---------- Media queries ---------- */
 @media only screen and (max-width: 800px) {

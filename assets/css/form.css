@@ -1,7 +1,7 @@
 /* ---------- Target text field ---------- */
 input[type="text"],
 textarea {
-  background-color: #68848b;
+  background-color: #FCF7F1;
   border: 2px solid #5B3D23;
   color: #ffa849;
   width: 100%;
@@ -17,7 +17,7 @@ textarea {
 
 /* ---------- Target email field ---------- */
 input[type="email"] {
-  background-color: #68848b;
+  background-color: #FCF7F1;
   border: 2px solid #5B3D23;
   width: 100%; 
   padding: 12px;
@@ -41,7 +41,7 @@ input[type="checkbox"] {
 
 #news {
   font-size: 25px;
-  background-color: #68848b;
+  background-color: #FCF7F1;
   border: 2px solid #5B3D23;
   padding: 12px;
   margin-top: 6px;

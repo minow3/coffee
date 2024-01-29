@@ -1,184 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="...Information about coffee shop...." />
-    <meta name="keywords" content="...Include all possible keywords...." />
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="...Information about coffee shop...." />
+        <meta name="keywords" content="...Include all possible keywords...." />
 
-    <!-- Contributions -->
-    <meta name="author" content="Tomas Bendaravicius" />
+        <!-- Contributions -->
+        <meta name="author" content="Tomas Bendaravicius" />
 
-    <meta name="contributor" content="...Name..." />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/navbar.css" />
+        <link rel="stylesheet" href="assets/css/images.css" />
+        <link rel="stylesheet" href="assets/css/footer.css" />
+        <link rel="stylesheet" href="assets/css/form.css" />
+        <link rel="stylesheet" href="assets/font/font-awesome/css/fontawesome.css" />
+        <link rel="stylesheet" href="assets/font/font-awesome/css/brands.css" />
+        <link rel="stylesheet" href="assets/font/font-awesome/css/solid.css" />
 
-    <meta name="contributor" content="...Name..." />
+        <!-- Name of Website-->
+        <title>Coffee Name</title>
+    </head>
+    <body>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/navbar.css" />
-    <link rel="stylesheet" href="assets/css/images.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/form.css" />
-    <link
-      rel="stylesheet"
-      href="assets/font/font-awesome/css/fontawesome.css"
-    />
-    <link rel="stylesheet" href="assets/font/font-awesome/css/brands.css" />
-    <link rel="stylesheet" href="assets/font/font-awesome/css/solid.css" />
-
-    <!-- Name of Website-->
-    <title>Coffee Name</title>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <div class="topnav" id="myTopnav">
-      <a href="index.html">Home</a>
-      <a href="pricing.html">Pricing</a>
-      <a href="booking.html">Booking</a>
-      <a href="contact.html">Contact</a>
-      <a href="about.html">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
-        ><i class="fa fa-bars"></i
-      ></a>
-    </div>
-    <br>
-
-    <!-- Main content -->
-    <div id="core">
-      <!-- Splitting content -->
-      <div id="center-page">
-        <!-- Left side content -->
-        <div class="left-column"></div>
-
-        <!-- Right side content -->
-        <div class="right-column">
-          <div class="content">
-            <div class="social">
-              <ul>
-                <li>
-                  <a href="https://www.facebook.com"
-                    ><i class="fab fa-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com"
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.twitter.com"
-                    ><i class="fa-brands fa-x-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="https://www.discord.com"
-                    ><i class="fa-brands fa-discord"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <h1>NEWS...</h1>
-            <div class="section">
-              <span class="img"
-                ><i class="fa-regular fa-hand-point-right"></i
-              ></span>
-              <span class="name">Booking system</span>
-              <p>Include ability to book your time...</p>
-              <span class="view"><a href="booking.html">View</a></span>
-            </div>
-            <div class="section">
-              <span class="img"
-                ><i class="fa-regular fa-hand-point-right"></i
-              ></span>
-              <span class="name">Added contact form</span>
-              <p>Include ability to contact...</p>
-              <span class="view"><a href="contact.html">View</a></span>
-            </div>
-            <div class="section">
-              <span class="img"
-                ><i class="fa-regular fa-hand-point-right"></i
-              ></span>
-              <span class="name">Updated pricing list</span>
-              <p>Include new prices, added new options for other drinks...</p>
-              <span class="view"><a href="pricing.html">View</a></span>
-            </div>
-          </div>
-          <!-- Site footer -->
-          <footer class="site-footer">
-            <div class="content">
-              <div class="row">
-                <div class="column">
-                    <hr id="linebreak">
-                  <h6 class="name">Opening hours</h6>
-                  <p class="timetable">
-                    <ul class="timelist">
-                        <li>07:00 - 17:00 Monday</li>
-                        <li>07:00 - 17:00 Tuesday</li>
-                        <li>07:00 - 17:00 Wednesday</li>
-                        <li>07:00 - 17:00 Thursday</li>
-                        <li>07:00 - 17:00 Friday</li>
-                        <li>10:00 - 18:00 Saturday</li>
-                    </ul>
-                  </p>
-                </div>
-
-                <div class="column">
-                  <h6 class="name">Subscription</h6>
-                  <div class="container-form">  
-                      
-                        <form action="">
-                            <input type="checkbox" id="news" name="vehicle1" value="Bike">
-                            <label for="news"> Include promotions</label><br>
-                          <input type="email" name="email" class="formStyle" placeholder="Email (required)" required />
-                          <input type="submit" value="Submit">
-                        </form>
-                
-                  </div>
-                </div>
-              </div>
-              <hr id="linebreak">
-            </div>
-            <div class="content">
-              <div class="row">
-                <div class="copyrights">
-                  <p class="copyright-text">
-                    Copyright &copy; 2024 All Rights Reserved by
-                    <a href="index.html">Early Rise Coffee</a>
-                  </p>
-                </div>
-
-                <div class="social">
-                    <ul>
-                      <li>
-                        <a href="https://www.facebook.com"
-                          ><i class="fab fa-facebook"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://www.twitter.com"
-                          ><i class="fa-brands fa-x-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://www.discord.com"
-                          ><i class="fa-brands fa-discord"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-              </div>
-            </div>
-          </footer>
+        <!-- Navigation -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="booking.html">Booking</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </div>
-      </div>
-    </div>
+        <br>
 
-    <script src="assets/script/script.js"></script>
+        <!-- Main content -->
+        <div id="core">
+
+            <!-- Splitting content -->
+            <div id="center-page">
+
+                <!-- Left side content -->
+                <div class="left-column"></div>
+
+                <!-- Right side content -->
+                <div class="right-column">
+
+                    <div class="content">
+                        <div class="social">
+                            <br>
+                            <ul>
+                                <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a></li>
+                            </ul>
+                            <hr id="linebreak">
+                        </div>
+
+                        <!-- Page content-->
+                        <h1>NEWS...</h1>
+                        <div class="section">
+                            <span class="img"><i class="fa-regular fa-hand-point-right"></i></span>
+                            <span class="name">Booking system</span>
+                            <p>Include ability to book your time...</p>
+                            <span class="view"><a href="booking.html">View</a></span>
+                        </div>
+                        <div class="section">
+                            <span class="img"><i class="fa-regular fa-hand-point-right"></i></span>
+                            <span class="name">Added contact form</span>
+                            <p>Include ability to contact...</p>
+                            <span class="view"><a href="contact.html">View</a></span>
+                        </div>
+                        <div class="section">
+                            <span class="img"><i class="fa-regular fa-hand-point-right"></i></span>
+                            <span class="name">Updated pricing list</span>
+                            <p>Include new prices, added new options for other drinks...</p>
+                            <span class="view"><a href="pricing.html">View</a></span>
+                        </div>
+                    </div>
+
+                    <!-- Site footer -->
+                    <footer class="site-footer">
+                        <div class="content">
+                            <div class="row">
+                                <div class="column">
+                                    <hr id="linebreak">
+                                    <h6 class="name">Opening hours</h6>
+                                    <p class="timetable">
+                                    <ul class="timelist">
+                                        <li>07:00 - 17:00 Monday</li>
+                                        <li>07:00 - 17:00 Tuesday</li>
+                                        <li>07:00 - 17:00 Wednesday</li>
+                                        <li>07:00 - 17:00 Thursday</li>
+                                        <li>07:00 - 17:00 Friday</li>
+                                        <li>09:00 - 18:00 Saturday</li>
+                                        <li>10:00 - 18:00 Sunday</li>
+                                    </ul>
+                                    </p>
+                                </div>
+
+                                <div class="column">
+                                    <h6 class="name">Subscription</h6>
+                                    <div class="container-form">  
+                                        <form action="form-news.html">
+                                            <input type="checkbox" id="news" name="vehicle1" value="Bike">
+                                            <label for="news"> Include promotions</label><br>
+                                            <input type="email" name="email" class="formStyle" placeholder="Email (required)" required />
+                                            <input type="submit" value="Submit">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr id="linebreak">
+                        </div>
+                        <div class="content">
+                            <div class="row">
+                                <div class="copyrights">
+                                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by<a href="index.html">Early Rise Coffee</a></p>
+                                </div>
+                                
+                                <!-- Social media footer-->
+                                <div class="social">
+                                    <br>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a></li>
+                                    </ul>
+                                    <hr id="linebreak">
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/script/script.js"></script>
   </body>
 </html>

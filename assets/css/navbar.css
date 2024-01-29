@@ -1,6 +1,6 @@
 /* ---------- Navbar ---------- */
 .topnav {
-  background-color: #68848b;
+  background-color: #4a2b13;
   overflow: hidden;
   position: fixed;
   z-index: 1;
@@ -13,20 +13,20 @@
 .topnav a {
   float: left;
   display: block;
-  color: #4a2b13;
+  color: #FCF7F1;
   text-align: center;
   padding: 15px 30px;
   text-decoration: none;
   font-size: 22px;
-  font-weight: 600;
 
 }
 
 /* ---------- Navbar links effect after hover---------- */
 .topnav a:hover {
-  background-color: #4a2b13;
-  color: #ffa849;
+  background-color: #FCF7F1;
+  color: #4a2b13;
   padding: 15px 30px;
+  font-size: 22px;
 
 }
 
