@@ -35,7 +35,7 @@ input[type="checkbox"] {
   width: 18px;
   height: 18px;
   accent-color:#ffa849;
-  background-color: #5B3D23;
+  background-color: #FCF7F1;
 
 }
 
@@ -52,7 +52,7 @@ input[type="checkbox"] {
 
 /* ---------- Target date time field ---------- */
 input[type="datetime-local"] {
-    background-color: #68848b;
+    background-color: #FCF7F1;
     border: 2px solid #5B3D23;
     color:#ffa849;
     font-size: 16px;
