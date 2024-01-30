@@ -1,6 +1,5 @@
 .site-footer
 {
-  background-color:#A0725A;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -10,7 +9,12 @@
 .copyright-text
 {
   margin:0;
-  color:#FCF7F1;
+  color:#5B3D23;
+  
+}
+
+.copyright-text a {
+    text-decoration: none;
 }
 @media (max-width:991px)
 {
@@ -24,9 +28,5 @@
   .site-footer
   {
     padding-bottom:0
-  }
-  .site-footer .copyright-text .social
-  {
-    text-align:center
   }
 }

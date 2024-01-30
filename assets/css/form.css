@@ -3,7 +3,7 @@ input[type="text"],
 textarea {
   background-color: #FCF7F1;
   border: 2px solid #5B3D23;
-  color: #ffa849;
+  color: #5B3D23;
   width: 100%;
   padding: 12px;
   border-radius: 10px;
@@ -107,13 +107,13 @@ input[type="submit"]:hover {
 /* ---------- Target placeholders in input fields ---------- */
 .container-form input::placeholder {
     font-size: 18px;
-    color: #ffa849;
+    color: #5B3D23;
 
 }
 
 /* ---------- Target placeholders in textarea fields ---------- */
 .container-form textarea::placeholder {
     font-size: 18px;
-    color: #ffa849;
+    color: #5B3D23;
 
 }
