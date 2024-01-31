@@ -24,6 +24,8 @@
         <title>Early Rise</title>
     </head>
     <body>
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+        <script src="https://mediafiles.botpress.cloud/9ddfb052-f489-4bba-8403-0f42d206e04b/webchat/config.js" defer></script>
 
         <!-- Navigation -->
         <div class="topnav" id="myTopnav">
@@ -67,13 +69,13 @@
                             <form action="form-action.html">
                         
                             <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <input type="text" id="fname" name="firstname">
                         
                             <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <input type="text" id="lname" name="lastname">
 
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" placeholder="Email..">
+                            <input type="email" id="email" name="email">
                         
                             <label for="time">Choose time from</label>
                             <input type="datetime-local" id="time" name="time-from">
@@ -110,9 +112,8 @@
                                     <h6 class="name">Subscription</h6>
                                     <div class="container-form">  
                                         <form action="form-news.html">
-                                            <input type="checkbox" id="news" name="vehicle1" value="Bike">
-                                            <label for="news"> Include promotions</label><br>
-                                            <input type="email" name="email" class="formStyle" placeholder="Email (required)" required />
+                                            <p>Upcoming events and promotions</p>
+                                            <input type="email" name="email" class="formStyle" placeholder="Enter your email address" required />
                                             <input type="submit" value="Submit">
                                         </form>
                                     </div>
@@ -123,7 +124,7 @@
                         <div class="content">
                             <div class="row">
                                 <div class="copyrights">
-                                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by<a href="index.html">Early Rise Coffee</a></p>
+                                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by <a href="index.html">Early Rise Coffee</a></p>
                                 </div>
                                 
                                 <!-- Social media footer-->
